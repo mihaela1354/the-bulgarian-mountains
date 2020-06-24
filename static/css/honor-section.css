@@ -1,14 +1,25 @@
-.card-container{
+.card-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.image-holder{
+.image-holder {
     display: block;
+    height: 10em;
+    margin: 1em;
 }
 
-img{
+img {
     display: block;
     height: 100%;
     width: auto;
     margin: auto;
+}
+
+article {
+    margin: 1em;
+    flex: 1 1 10em;
+    /* border: solid 1px grey; */
+    box-shadow: 5px 5px 1em 0.5em rgba(0, 0, 0, 0.315);
+    padding: 1em;
 }
