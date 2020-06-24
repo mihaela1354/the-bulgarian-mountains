@@ -1,0 +1,14 @@
+.card-container{
+    display: flex;
+}
+
+.image-holder{
+    display: block;
+}
+
+img{
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: auto;
+}

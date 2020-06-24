@@ -1,0 +1,26 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js);
+header {
+    background: url(https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+    background-size: cover;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.auth a{
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+}
+
+nav div>a {
+    font-size: 1.2rem;
+    margin: 1.2em;
+    font-weight: bolder;
+}
