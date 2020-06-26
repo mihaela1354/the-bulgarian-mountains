@@ -1,37 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
+import './typography.css'
+import './Header/Dropdown/dropdown.css'
 import Header from './Header/Header';
 
 class App extends Component {
   state = {
-    paragraph: {
-      number: Math.round(Math.random()*10)
-    }
+    text: "Some text"
   }
-  changeHandler = () => {
-    if (typeof this.state.paragraph.number === "number") {
-      this.setState({
-        paragraph: {
-          number:"Changed"
-        }
-      })
-    } else {
-      this.setState({
-        paragraph: {
-          number: Math.round(Math.random()*100)
-        }
-      });
-    }
-
+  changeHandler = (event) => {
+    this.setState({
+      text: event.target.value
+    })
   }
 
   render() {
     return (
       <div className="App">
         <Header />
-        <p>{this.state.paragraph.number}</p>
-        <button onClick={this.changeHandler}>Change</button>
-
       </div>
     );
   }
