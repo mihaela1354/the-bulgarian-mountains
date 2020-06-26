@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import './typography.css'
-import './Header/Dropdown/dropdown.css'
+import './styles/App.css';
+import './styles/typography.css'
 import Header from './Header/Header';
 
 class App extends Component {
