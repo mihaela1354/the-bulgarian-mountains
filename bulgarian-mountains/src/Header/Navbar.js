@@ -5,8 +5,8 @@ const navbar = () => {
     return (
         <nav>
             <div>
-                <Dropdown />
-                <Dropdown />
+                <Dropdown purpose="Routes"/>
+                <Dropdown purpose="Huts"/>
                 <a href="">Contacts</a>
             </div>
         </nav>

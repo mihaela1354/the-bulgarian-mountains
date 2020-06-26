@@ -1,9 +1,10 @@
 import React from 'react';
 
-const dropdown = () => {
+const dropdown = (props) => {
+    
     return (
         <div className="dropdown">
-            <a className="dropbtn">Routes</a>
+            <a className="dropbtn">{props.purpose}</a>
             <ul className="dropdown-content">
                 <li><a href="">Rila</a></li>
                 <li><a href="">Pirin</a></li>
