@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaela1354/Rest-API.git"
+  },
+  "author": "Mihaela Mileva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihaela1354/Rest-API/issues"
+  },
+  "homepage": "https://github.com/mihaela1354/Rest-API#readme"
+}
