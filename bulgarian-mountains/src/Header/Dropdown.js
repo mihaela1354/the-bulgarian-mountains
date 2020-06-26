@@ -1,3 +1,5 @@
+import React from 'react';
+
 const dropdown = () => {
     return (
         <div className="dropdown">
@@ -10,3 +12,5 @@ const dropdown = () => {
         </div>
     )
 }
+
+export default dropdown;
