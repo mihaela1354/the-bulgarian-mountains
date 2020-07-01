@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Auth from './Auth';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 
 const header = () => {
     return (

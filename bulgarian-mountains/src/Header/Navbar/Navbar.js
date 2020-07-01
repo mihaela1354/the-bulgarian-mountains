@@ -1,12 +1,13 @@
 import React from 'react';
-import Dropdown from './Dropdown';
+import Dropdown from '../Dropdown/Dropdown';
+import './nav.css'
 
 const navbar = () => {
     return (
         <nav>
             <div>
-                <Dropdown />
-                <Dropdown />
+                <Dropdown purpose="Routes"/>
+                <Dropdown purpose="Huts"/>
                 <a href="">Contacts</a>
             </div>
         </nav>

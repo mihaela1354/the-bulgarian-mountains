@@ -1,10 +1,13 @@
 import React from 'react';
+import './dropdown.css'
 
-const dropdown = () => {
+
+const dropdown = (props) => {
+
     return (
-        <div className="dropdown">
-            <a className="dropbtn">Routes</a>
-            <ul className="dropdown-content">
+        <div className="Dropdown">
+            <a className="Dropdown-dropbtn">{props.purpose}</a>
+            <ul className="Dropdown-content">
                 <li><a href="">Rila</a></li>
                 <li><a href="">Pirin</a></li>
                 <li><a href="">Stara Planina</a></li>
