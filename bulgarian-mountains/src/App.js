@@ -6,8 +6,9 @@ import Hut from './Hut/Hut';
 
 class App extends Component {
   state = {
-    text: "Some text",
+    isLogged: false,
     huts: [{
+      id: "jdlasdlmslakmd22o12madsl293i130",
       name: "Seven Rila Lakes",
       grade: 5.6,
       description: "Pariatur nostrud occaecat cupidatat non excepteur esse eiusmod adipisicing. Exercitation in cupidatat adipisicing nisi cupidatat quis sunt. Excepteur id magna labore laborum qui veniam Lorem occaecat nulla labore."
@@ -24,7 +25,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <main>
-          <Hut hut={this.state.huts[0]}/>
+            <div>
+              <Hut isLogged={this.state.isLogged} hut={this.state.huts[0]} />
+            </div>
         </main>
       </div>
     );
