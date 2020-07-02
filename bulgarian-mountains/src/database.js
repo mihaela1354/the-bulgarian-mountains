@@ -1,5 +1,5 @@
 const state = {
-    isLogged: false,
+    isLogged: true,
     huts: [
         {
             id: "jdlasdlmsfdawdsao12madsl293i130",

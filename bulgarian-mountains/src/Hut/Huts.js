@@ -8,11 +8,11 @@ const huts = (props) => {
     }
 
     const deleteHut = (event) => {
-        return event.target.parentNode.style.display = "none";
+        return event.target.parentNode.remove();
     }
 
     const huts = props.isLogged
-        ? props.huts.map(hut => (<AdminHut click={deleteHut} kay={hut.id} hut={hut} />))
+        ? props.huts.map(hut => (<AdminHut logged={props.logged} change={props.changed} key={hut.id} hut={hut} />))
         : props.huts.map(hut => (<GuestHut click={deleteHut} kay={hut.id} hut={hut} />));
 
     return (<section style={style}> {huts} </section>);
