@@ -1,10 +1,10 @@
 import React from 'react';
 import Dropdown from '../Dropdown/Dropdown';
-import './nav.css'
+import style from './nav.module.css';
 
 const navbar = () => {
     return (
-        <nav>
+        <nav style={style}>
             <div>
                 <Dropdown purpose="Routes"/>
                 <Dropdown purpose="Huts"/>

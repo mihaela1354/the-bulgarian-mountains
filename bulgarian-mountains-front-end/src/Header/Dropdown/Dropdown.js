@@ -1,11 +1,11 @@
 import React from 'react';
-import './dropdown.css'
+import style from './dropdown.module.css'
 
 
 const dropdown = (props) => {
 
     return (
-        <div className="Dropdown">
+        <div style={style} className="Dropdown">
             <a className="Dropdown-dropbtn">{props.purpose}</a>
             <ul className="Dropdown-content">
                 <li><a href="">Rila</a></li>
