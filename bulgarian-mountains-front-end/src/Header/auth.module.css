@@ -1,0 +1,12 @@
+.auth {
+    min-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+.auth a{
+    padding: 1em;
+    font-weight: bolder;
+}
+
