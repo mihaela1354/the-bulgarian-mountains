@@ -5,12 +5,10 @@ header {
     box-shadow: 2px 2px 1em 1em rgba(0, 0, 0, 0.226);
 }
 
-.auth {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-}
-.auth a{
-    padding: 1em;
-    font-weight: bolder;
-}
+@media (max-width: 800px){
+    header{
+        min-width: 20em;
+        margin:0;
+        width:100vw;
+    }
+  }
