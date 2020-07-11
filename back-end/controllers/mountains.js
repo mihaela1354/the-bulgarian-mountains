@@ -1,18 +1,25 @@
+const models = require('../models')
+
 exports.getAll = (req, res, next) => {
-    res.status(200).json({
-        mountains: [
-            { id: new Date().toISOString(), name: "Rila", rating: 0, huts: [], routes: [] }
-        ]
-    });
+    models.Mountain.find().lean().then(mountains => {
+        res.status(200).json(mountains)
+    }).catch(console.log);
 }
 
 exports.create = (req, res, next) => {
     const { name, rating } = req.body;
-
-    console.log(req.body)
-    //db
-    res.status(201).json({
-        message: "Mountain created successfully!",
-        mountain: { id: new Date().toISOString(), name: name, rating: rating, huts: [], routes: [] }
+    const mountain = new models.Mountain({
+        id: new Date().toISOString(),
+        name: name,
+        imageUrl: 'images\rila-haram.jpg',
+        rating: rating,
+        huts: [],
+        routes: []
+    });
+    mountain.save().then(model => {
+        res.status(201).json({
+            message: "Mountain created successfully!",
+            mountain: { ...model }
+        })
     })
 }

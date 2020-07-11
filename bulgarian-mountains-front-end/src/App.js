@@ -4,7 +4,7 @@ import './styles/App.css';
 import './styles/typography.css'
 import Header from './Header/Header';
 import Huts from './Hut/Huts';
-import fs from 'fs';
+
 
 class App extends Component {
   state = { ...mainState }

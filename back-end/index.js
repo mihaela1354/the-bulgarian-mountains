@@ -3,7 +3,7 @@ require('./config/database')().then(() => {
     const express = require('express');
 
     const app = express();
-    
+
     app.use(express.json());
 
     app.use((req, res, next) => {
@@ -18,4 +18,4 @@ require('./config/database')().then(() => {
 
 
     app.listen(config.port, console.log(`Server is ready! Listening on port ${config.port}...`))
-})
+}).catch(console.log)

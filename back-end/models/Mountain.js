@@ -1,13 +1,15 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const Model = mongoose.Model;
-const {String, Number, Boolean, ObjectId, Date} = Schema.Types;
+const { String, Number, Boolean, ObjectId, Date } = Schema.Types;
 
 const MountainSchema = new Schema({
     name: {
         type: String,
         required: true,
         unique: true
+    },
+    imageUrl: {
+        type: String,
     },
     rating: {
         type: Number,
@@ -21,6 +23,8 @@ const MountainSchema = new Schema({
         type: ObjectId,
         ref: "Hut"
     }]
-})
+}, 
+{ timestamps: true }
+);
 
-module.exports = new Model("Mountain", MountainSchema)
+module.exports = mongoose.model("Mountain", MountainSchema)
