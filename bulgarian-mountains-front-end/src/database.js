@@ -32,8 +32,19 @@ const state = {
             name: "Boqn Petrov", 
             description: "Id ad commodo tempor voluptate veniam excepteur dolor ad eiusmod velit. Irure amet exercitation eu Lorem labore ex nostrud ut quis. Irure cillum exercitation laborum dolor eiusmod enim ut aute ipsum elit dolor tempor. Culpa ad dolore dolore elit nisi do nulla. Ea occaecat dolore amet esse tempor." ,
             imageUrl: "https://lh3.googleusercontent.com/proxy/XvHBb2PjFzIa6iOnNuoSS7eM4N28iDzdggm58UQ4cybVX_gUiM-H5-YpNHTbFT2guAWac3GQpUcx4M0atqgFY9qpD9042mim-97Vau9IwjLP_e2jmDbT"
-        
         },
+        {
+            id: 3, 
+            name: "Reinhold Messner",
+            description: "Labore tempor commodo ad aliqua officia proident occaecat elit velit ex consectetur. Anim veniam commodo quis elit commodo. Exercitation ea velit velit consectetur reprehenderit non sint minim. Elit sunt consequat deserunt nulla cupidatat pariatur amet. Consectetur ipsum pariatur officia officia tempor culpa. Sit id consectetur culpa consequat aliquip consectetur ut proident.",
+            imageUrl: "https://www.ciasasalares.it/images/2018/11/29/Reinhold_Messner_3.jpg"
+        },
+        {
+            id: 4, 
+            name: "Carlos Soria",
+            description: "Labore tempor commodo ad aliqua officia proident occaecat elit velit ex consectetur. Anim veniam commodo quis elit commodo. Exercitation ea velit velit consectetur reprehenderit non sint minim. Elit sunt consequat deserunt nulla cupidatat pariatur amet. Consectetur ipsum pariatur officia officia tempor culpa. Sit id consectetur culpa consequat aliquip consectetur ut proident.",
+            imageUrl: "https://www.summitsweb.com/wp-content/uploads/2019/02/09052016-carlos-soria-llega-al-campo-base-del-dhaulagiri.jpg"
+        }
     ]
 }
 

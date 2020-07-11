@@ -1,0 +1,25 @@
+aside{
+    width: 15em;
+    height: 100vh;
+    flex: 1 0 15em;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px grey;
+}
+
+aside>a{
+    display: block;
+    color: black;
+    width: 100%;
+    padding: 1em;
+    margin:1em auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+aside>a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgba(128, 128, 128, 0.562);
+    color:white;
+}

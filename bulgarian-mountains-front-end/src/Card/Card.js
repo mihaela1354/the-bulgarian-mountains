@@ -3,7 +3,7 @@ import style from './card.module.css';
 
 const card = (props) => {
     return (
-        <article style={style}>
+        <article className="card" style={style}>
             <h4>{props.name}</h4>
             <p className="image-holder">
                 <img

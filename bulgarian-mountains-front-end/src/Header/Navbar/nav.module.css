@@ -1,7 +1,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js);
 header {
-    background: url(https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+    background: url(https://i2.wp.com/www.markhorrell.com/wp-content/uploads/DSCF13441.jpg?fit=1200%2C900&ssl=1);
     background-size: cover;
+    box-shadow: 2px 2px 1em 1em rgba(0, 0, 0, 0.226);
 }
 
 .auth {
