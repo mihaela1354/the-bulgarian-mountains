@@ -1,5 +1,6 @@
 aside{
     width: 15em;
+    height: 100vh;
     flex: 1 0 15em;
     display: flex;
     flex-direction: column;
@@ -22,13 +23,3 @@ aside>a:hover{
     background-color: rgba(128, 128, 128, 0.493);
     color:white;
 }
-
-@media (max-width: 800px){
-   aside{
-       display: block;
-       width: 100%;
-       border-right: none;
-       border-bottom: solid 1px black;
-       height: initial;
-   }
-  }

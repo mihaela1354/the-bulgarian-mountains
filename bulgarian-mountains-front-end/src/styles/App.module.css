@@ -68,7 +68,6 @@ fieldset{
 
 main{
   display: flex;
-  border-left: solid 1px black;
 }
 
 .App {
@@ -85,18 +84,4 @@ textarea{
   width: 100%;
   height: 6em;
   margin-top: 0.5em;
-}
-
-@media (max-width: 800px){
-  html{
-    margin: 0 auto;
-    font-size: 10px;
-  }
-  main{
-    flex-direction: column;
-    flex-wrap: wrap;
-    width:100%;
-    min-width: 20em;
-    border-top: solid 1px black;
-  }
 }
