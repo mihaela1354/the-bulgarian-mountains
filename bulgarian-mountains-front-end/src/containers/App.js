@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import mainState from './database';
-import styles from './styles/App.module.css';
-import Header from './Header/Header';
-//import Huts from './Hut/Huts';
-import Footer from './Footer/Footer'
-//import Mountains from './Mountains/Mountain'
-import Section from './Section/Section';
-import Aside from './Aside/Aside';
+import mainState from '../database';
+import styles from './App.module.css';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer'
+import Section from '../Section/Section';
+import Aside from '../Aside/Aside';
 
 
 
