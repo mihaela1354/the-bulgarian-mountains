@@ -4,8 +4,9 @@ import styles from './aside.module.css';
 const aside = (props)=>{
     return (
         <aside style = {styles}>
-            <a>News</a>
-            <a>Forum</a>
+            <a href="">News</a>
+            <a href="">Forum</a>
+            <a href="">Contacts</a>
         </aside>
     )
 }

@@ -20,6 +20,6 @@ aside>a{
 aside>a:hover{
     cursor: pointer;
     font-weight: bolder;
-    background-color: rgba(128, 128, 128, 0.562);
+    background-color: rgba(128, 128, 128, 0.493);
     color:white;
 }

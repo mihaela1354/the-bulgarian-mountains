@@ -1,0 +1,16 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js);
+header {
+    background: url(https://i2.wp.com/www.markhorrell.com/wp-content/uploads/DSCF13441.jpg?fit=1200%2C900&ssl=1);
+    background-size: cover;
+    box-shadow: 2px 2px 1em 1em rgba(0, 0, 0, 0.226);
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.auth a{
+    padding: 1em;
+    font-weight: bolder;
+}

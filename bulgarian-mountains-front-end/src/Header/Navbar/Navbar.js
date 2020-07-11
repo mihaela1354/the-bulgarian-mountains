@@ -8,7 +8,6 @@ const navbar = () => {
             <div>
                 <Dropdown purpose="Routes"/>
                 <Dropdown purpose="Huts"/>
-                <a href="">Contacts</a>
             </div>
         </nav>
     )
