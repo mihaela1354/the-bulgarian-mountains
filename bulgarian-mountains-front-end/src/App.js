@@ -4,6 +4,7 @@ import './styles/App.css';
 import './styles/typography.css'
 import Header from './Header/Header';
 import Huts from './Hut/Huts';
+//import Mountains from './Mountains/Mountain'
 
 
 class App extends Component {
