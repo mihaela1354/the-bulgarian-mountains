@@ -8,9 +8,11 @@ exports.getAll = (req, res, next) => {
 
 exports.create = (req, res, next) => {
     const { name, rating } = req.body;
+
+    console.log(req.body)
     //db
     res.status(201).json({
         message: "Mountain created successfully!",
-        post: { id: new Date().toISOString(), name: name, rating: rating, huts: [], routes: [] }
+        mountain: { id: new Date().toISOString(), name: name, rating: rating, huts: [], routes: [] }
     })
 }
