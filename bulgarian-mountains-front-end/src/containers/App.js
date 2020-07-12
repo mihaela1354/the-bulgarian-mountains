@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import mainState from '../database';
 import styles from './App.module.css';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer'
-import Section from '../Section/Section';
-import Aside from '../Aside/Aside';
+import Footer from '../components/Footer/Footer'
+import Section from '../components/Section/Section';
+import Aside from '../components/Aside/Aside';
 
 
 
