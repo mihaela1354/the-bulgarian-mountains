@@ -2,9 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  margin-bottom: 2em;
 }
 
 fieldset{
   padding: 1em 0;
   border: none;
+}
+
+.root{
+  margin-bottom: 2em;
 }

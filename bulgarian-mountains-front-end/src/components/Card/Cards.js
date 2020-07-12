@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from './Card';
+import WithClass from '../../hoc/WithClass';
 
 const cards = (props) => {
     return (
-    <div className="card-container">
+    <WithClass class="card-container">
         {props.cards.map(c => <Card key={c.id} name={c.name} imageUrl={c.imageUrl} description={c.description} />)}
-    </div>
+    </WithClass>
     )
 }
 
