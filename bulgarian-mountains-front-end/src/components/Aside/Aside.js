@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './aside.module.css';
+import Buttons from './Buttons';
 
 const aside = (props)=>{
+
     return (
         <aside style = {styles}>
-            <a href="">News</a>
-            <a href="">Forum</a>
-            <a href="">Contacts</a>
+          <Buttons logged = {props.isLogged}/>
         </aside>
     )
 }

@@ -1,13 +1,13 @@
 img {
     display: block;
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
     margin: auto;
 }
 
 .card {
-    margin: 1em;
-    flex: 1 1 10em;
+    margin:2em 1em;
+    flex: 1 1 20em;
     /* border: solid 1px grey; */
     box-shadow: 5px 5px 1em 0.5em rgba(0, 0, 0, 0.315);
     padding: 1em;
@@ -16,4 +16,11 @@ img {
 .card:hover{
     cursor:pointer;
     border: solid 1px black;
+}
+
+.image-holder {
+    display: block;
+    height: 12em;
+    margin: 1em;
+    overflow: hidden;
 }

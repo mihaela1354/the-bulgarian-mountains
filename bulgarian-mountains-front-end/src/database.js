@@ -31,7 +31,7 @@ const state = {
             id: 2,
             name: "Boqn Petrov", 
             description: "Id ad commodo tempor voluptate veniam excepteur dolor ad eiusmod velit. Irure amet exercitation eu Lorem labore ex nostrud ut quis. Irure cillum exercitation laborum dolor eiusmod enim ut aute ipsum elit dolor tempor. Culpa ad dolore dolore elit nisi do nulla. Ea occaecat dolore amet esse tempor." ,
-            imageUrl: "https://lh3.googleusercontent.com/proxy/XvHBb2PjFzIa6iOnNuoSS7eM4N28iDzdggm58UQ4cybVX_gUiM-H5-YpNHTbFT2guAWac3GQpUcx4M0atqgFY9qpD9042mim-97Vau9IwjLP_e2jmDbT"
+            imageUrl: "https://clubz.bg/sites/default/files/field/image/%D0%B1%D0%BE%D1%8F%D0%BD%20%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2_0.jpg"
         },
         {
             id: 3, 

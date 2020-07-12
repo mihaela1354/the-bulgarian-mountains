@@ -5,7 +5,6 @@ import Header from '../Header/Header';
 import Footer from '../components/Footer/Footer'
 import Aside from '../components/Aside/Aside';
 import Cockpit from '../components/Cockpit/Cockpit';
-import Register from '../components/Auth/Register/Register';
 
 
 
@@ -17,9 +16,8 @@ class App extends Component {
       <div style={styles} className="App">
         <Header />
         <main>
-          <Aside />
-          {/* <Cockpit state={this.state}/>      */}
-        <Register/>
+          <Aside isLogged={this.state.isLogged}/>
+          <Cockpit state={this.state}/>     
         </main>
         <Footer />
       </div>
