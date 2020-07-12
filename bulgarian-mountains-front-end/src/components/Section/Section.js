@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './section.module.css';
-import Card from '../Card/Card';
+import Cards from '../Card/Cards';
 
 const section = (props) => {
     return (
@@ -8,9 +8,7 @@ const section = (props) => {
             <h3>{props.title}</h3>
             {
                 props.cards
-                    ? (<div className="card-container">
-                        {props.cards.map(c => <Card key={c.id} name={c.name} imageUrl={c.imageUrl} description={c.description} />)}
-                    </div>)
+                    ? <Cards cards={props.cards}/>
                     : (<article>{props.info}</article>)
             }
         </section>
