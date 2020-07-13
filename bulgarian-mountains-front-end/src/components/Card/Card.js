@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './card.module.css';
+import PropTypes from 'prop-types';
 
 const card = (props) => {
     return (
@@ -15,6 +16,12 @@ const card = (props) => {
 
         </article>
     )
+}
+
+card.propTypes = {
+    name: PropTypes.string,
+    imageUrl: PropTypes.string,
+    description: PropTypes.string
 }
 
 export default card;
