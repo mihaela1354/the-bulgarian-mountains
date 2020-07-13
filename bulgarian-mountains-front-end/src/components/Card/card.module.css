@@ -7,7 +7,7 @@ img {
 
 .card {
     margin:2em 1em;
-    flex: 1 1 20em;
+    flex: 0 1 20em;
     /* border: solid 1px grey; */
     box-shadow: 5px 5px 1em 0.5em rgba(0, 0, 0, 0.315);
     padding: 1em;
@@ -23,4 +23,10 @@ img {
     height: 12em;
     margin: 1em;
     overflow: hidden;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
