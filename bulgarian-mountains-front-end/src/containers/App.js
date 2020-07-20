@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import mainState from '../database';
 import styles from './App.module.css';
-import Header from '../Header/Header';
-import Footer from '../components/Footer/Footer'
 import Aside from '../components/Aside/Aside';
 import Cockpit from '../components/Cockpit/Cockpit';
+import Layout from '../components/Layout/Layout';
 
 
 
@@ -13,14 +12,10 @@ class App extends Component {
 
   render() {
     return (
-      <div style={styles} className="App">
-        <Header />
-        <main>
-          <Aside isLogged={this.state.isLogged}/>
-          <Cockpit state={this.state}/>     
-        </main>
-        <Footer />
-      </div>
+      <Layout style={styles}>
+        <Aside isLogged={this.state.isLogged} />
+        <Cockpit state={this.state} />
+      </Layout>
     );
   }
 }
