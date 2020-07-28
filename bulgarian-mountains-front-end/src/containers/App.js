@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+// import { Route, Switch, Link} from 'react-router-dom';
+
 import mainState from '../database';
 import styles from './App.module.css';
-import Header from './Header/Header';
-import Footer from '../components/Footer/Footer'
-import Aside from '../components/Aside/Aside';
-import Cockpit from '../components/Cockpit/Cockpit';
 
+import Aux from '../hoc/Auxil';
+import Header from '../components/Header/Header';
+import Aside from '../components/Aside/Aside';
+import Footer from '../components/Footer/Footer';
+
+
+import Layout from '../hoc/Layout';
 
 
 class App extends Component {
@@ -14,14 +18,14 @@ class App extends Component {
 
   render() {
     return (
-      <div style={styles} className="App">
-        <Header />
-        <main>
-          <Aside isLogged={this.state.isLogged} />
-          <Cockpit state={this.state} />
-        </main>
-        <Footer />
-      </div>
+      <Aux style={styles}>
+          <Header />
+          <main>
+              <Aside isLogged={this.state.isLogged} />
+              <Layout state={this.state}/>
+          </main>
+          <Footer />
+      </Aux>
     );
   }
 }

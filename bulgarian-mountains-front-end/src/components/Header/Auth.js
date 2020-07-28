@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './auth.module.css'
+import { Link } from 'react-router-dom';
+import styles from './auth.module.css';
 
 const auth = (props) => {
     return (
@@ -7,12 +8,12 @@ const auth = (props) => {
             <h1><a>BulHuts</a></h1>
             {!props.logged ?
                 <div>
-                    <a href="">Login</a>
-                    <a href="">Register</a>
+                    <Link to="/login">Login</Link>
+                    <Link to="/register">Register</Link>
                 </div>
                 : <div>
-                    <a href="">Hello, Username</a>
-                    <a href="">Logout</a>
+                    <Link to="/profile:id">Hello, Username</Link>
+                    <Link to="/logout">Logout</Link>
                 </div>
             }
         </div>

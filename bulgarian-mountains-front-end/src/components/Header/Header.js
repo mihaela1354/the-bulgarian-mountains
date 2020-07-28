@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import Auth from '../../components/Header/Auth';
-import Navbar from '../../components/Header/Navbar/Navbar';
+
+import Auth from './Auth';
+import Navbar from './Navbar/Navbar';
 import styles from './header.module.css'
 
 class Header extends Component{
     state = {
-        isLogged: true,
+        isLogged: false,
         username: "Mihaela"
     }
     render(){
