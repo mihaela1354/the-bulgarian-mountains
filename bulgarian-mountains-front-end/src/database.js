@@ -25,25 +25,19 @@ const state = {
             id: 1,
             name: "Simone Moro",
             description: "Irure tempor nostrud quis mollit labore. Enim proident fugiat exercitation adipisicing cillum est est qui aute do reprehenderit ipsum. Laborum voluptate eu consequat anim ipsum esse et dolore tempor aute id in esse. Aliquip exercitation adipisicing tempor nulla et consequat.",
-            imageUrl: "https://clubz.bg/sites/default/files/field/image/%D1%81%D0%B8%D0%BC%D0%BE%D0%BD%D0%B5%20%D0%BC%D0%BE%D1%80%D0%BE.jpg"
+            imageUrl: ".\\images\\симоне моро.jpg"
         },
         { 
             id: 2,
             name: "Boqn Petrov", 
             description: "Id ad commodo tempor voluptate veniam excepteur dolor ad eiusmod velit. Irure amet exercitation eu Lorem labore ex nostrud ut quis. Irure cillum exercitation laborum dolor eiusmod enim ut aute ipsum elit dolor tempor. Culpa ad dolore dolore elit nisi do nulla. Ea occaecat dolore amet esse tempor." ,
-            imageUrl: "https://clubz.bg/sites/default/files/field/image/%D0%B1%D0%BE%D1%8F%D0%BD%20%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2_0.jpg"
+            imageUrl: ".\\images\\боян петров_0.jpg"
         },
         {
             id: 3, 
             name: "Reinhold Messner",
             description: "Labore tempor commodo ad aliqua officia proident occaecat elit velit ex consectetur. Anim veniam commodo quis elit commodo. Exercitation ea velit velit consectetur reprehenderit non sint minim. Elit sunt consequat deserunt nulla cupidatat pariatur amet. Consectetur ipsum pariatur officia officia tempor culpa. Sit id consectetur culpa consequat aliquip consectetur ut proident.",
-            imageUrl: "https://www.ciasasalares.it/images/2018/11/29/Reinhold_Messner_3.jpg"
-        },
-        {
-            id: 4, 
-            name: "Carlos Soria",
-            description: "Labore tempor commodo ad aliqua officia proident occaecat elit velit ex consectetur. Anim veniam commodo quis elit commodo. Exercitation ea velit velit consectetur reprehenderit non sint minim. Elit sunt consequat deserunt nulla cupidatat pariatur amet. Consectetur ipsum pariatur officia officia tempor culpa. Sit id consectetur culpa consequat aliquip consectetur ut proident.",
-            imageUrl: "https://www.summitsweb.com/wp-content/uploads/2019/02/09052016-carlos-soria-llega-al-campo-base-del-dhaulagiri.jpg"
+            imageUrl: ".\\images\\Reinhold_Messner_3.jpg"
         }
     ]
 }
