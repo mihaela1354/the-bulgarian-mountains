@@ -1,8 +1,9 @@
-const routers = require('../routes');
+const routes = require('../routes');
 
 module.exports = (app) =>{
 
-    app.use('/mountains',routers.mountain);
-    app.use('/users', routers.users)
+    app.use('/mountains',routes.mountain);
+    app.use('/users', routes.users);
+    app.use('/honored', routes.honored);
 
 }

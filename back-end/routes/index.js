@@ -1,7 +1,9 @@
 const mountain = require('./mountain');
-const users = require('./users')
+const honored = require('./honored');
+const users = require('./users');
 
 module.exports = {
     mountain,
+    honored,
     users
 }
