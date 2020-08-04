@@ -1,4 +1,4 @@
-const models = require('../models')
+const models = require('../models');
 
 exports.get = (req, res, next) => {
     const { id } = req.body;
@@ -16,10 +16,12 @@ module.exports.getAll = (req, res, next) => {
 
 exports.create = (req, res, next) => {
     const { name, imageUrl, description, nationality } = req.body;
+    
+    console.log(req.file)
     const mountain = new models.Honor({
         id: new Date().toISOString(),
         name: name,
-        imageUrl: 'images\rila-haram.jpg',
+        imageUrl: req.file.filename,
         description,
         nationality
     });

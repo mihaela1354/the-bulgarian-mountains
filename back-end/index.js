@@ -1,6 +1,7 @@
 require('./config/database')().then(() => {
     const config = require('./config/config');
     const express = require('express');
+    
 
     const app = express();
 
