@@ -8,13 +8,14 @@ img {
 .card {
     margin:2em 1em;
     flex: 0 1 20em;
-    /* border: solid 1px grey; */
     box-shadow: 5px 5px 1em 0.5em rgba(0, 0, 0, 0.315);
     padding: 1em;
+    border: solid 1px transparent;
+  
 }
-
 .card:hover{
     cursor:pointer;
+    box-sizing: border-box;
     border: solid 1px black;
 }
 
@@ -29,4 +30,5 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 0.5em;
 }

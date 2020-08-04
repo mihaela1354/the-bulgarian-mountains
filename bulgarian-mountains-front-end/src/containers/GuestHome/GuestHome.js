@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
 //import database from '../../database';
 import Section from '../../components/Section/Section';
+import axios from 'axios';
 import styles from './cockpit.module.css';
 
 
 class Cockpit extends Component {
-    state = { 
-        honored:[]
+    state = {
+        honored: []
     }
 
-    
+    componentDidMount() {
+        console.log('Component did mount')
+        axios.get('http://localhost:8080/honored/all')
+            .then(res => {
+                this.setState({ honored: res.data });
+            })
+            .catch(console.log)
+    }
+
     render() {
-        const honoredContent = this.state.honored.length===0 
-        ? {info: "No honored mentions!"} 
-        : {cards: this.state.honored};
+        console.log('render')
+        const honoredContent = this.state.honored.length === 0
+            ? { info: "No honored mentions!" }
+            : { cards: this.state.honored };
 
         return (
             <div style={styles} className="sections">

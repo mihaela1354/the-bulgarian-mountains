@@ -11,7 +11,7 @@ const card = (props) => {
                     src={props.imageUrl}
                     alt="Error" />
             </p>
-            <p>{props.description}</p>
+            <p>{props.nationality}</p>
         </article>
     )
 }
