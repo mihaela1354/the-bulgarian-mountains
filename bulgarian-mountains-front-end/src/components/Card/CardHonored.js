@@ -9,11 +9,9 @@ const card = (props) => {
             <p className="image-holder">
                 <img
                     src={props.imageUrl}
-                    alt="" />
+                    alt="Error" />
             </p>
-
             <p>{props.description}</p>
-
         </article>
     )
 }
