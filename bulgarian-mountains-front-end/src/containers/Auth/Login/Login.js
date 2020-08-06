@@ -6,7 +6,7 @@ const login = (props) =>{
         <form style={styles}>
             <legend>Login</legend>
             <fieldset>
-                <label>Username:</label>
+                <label for="login-username">Username:</label>
                 <input type="text" placeholder="Peter" id="login-username"/>
             </fieldset>
             <fieldset>
