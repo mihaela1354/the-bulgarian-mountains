@@ -10,6 +10,10 @@
     font-weight: bolder;
 }
 
+.auth a.active{
+   color: orange;
+}
+
 .Greeting{
     color: white;
     font-weight: bolder;

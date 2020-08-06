@@ -1,5 +1,6 @@
 import React from 'react';
-import style from './dropdown.module.css'
+import { Link } from 'react-router-dom';
+import style from './dropdown.module.css';
 
 
 const dropdown = (props) => {
@@ -8,9 +9,9 @@ const dropdown = (props) => {
         <div style={style} className="Dropdown">
             <a className="Dropdown-dropbtn">{props.purpose}</a>
             <ul className="Dropdown-content">
-                <li><a href="">Rila</a></li>
-                <li><a href="">Pirin</a></li>
-                <li><a href="">Stara Planina</a></li>
+                <li><Link to={"/"+props.purpose+"/rila"}>Rila</Link></li>
+                <li><Link to={"/"+props.purpose+"/pirin"}>Pirin</Link></li>
+                <li><Link to={"/"+props.purpose+"/stara-planina"}>Stara Planina</Link></li>
             </ul>
         </div>
     )

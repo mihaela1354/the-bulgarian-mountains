@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Auxil';
+import styles from './huts.module.css';
 
-import Section from '../../components/Section/Section';
+import CardSection from '../../components/Sections/CardSection';
+import InfoSection from '../../components/Sections/InfoSection';
+import WithClass from '../../hoc/WithClass'
+
 
 class Huts extends Component {
     render() {
         return (
-            <Aux>
-                <Section title="Rila" info="Rila is the best" />
-                <Section title="Huts" cards={[]}/>
-            </Aux>
+            <WithClass style={styles} class="sections">
+                <InfoSection title="Rila" info="Rila is the best" />
+                <CardSection title="Huts" type="honored" cards={[]}/>
+            </WithClass>
         )
     }
 }

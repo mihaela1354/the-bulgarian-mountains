@@ -4,10 +4,10 @@ import style from './nav.module.css';
 
 const navbar = () => {
     return (
-        <nav style={style}>
+        <nav className="Navbar" style={style}>
             <div>
-                <Dropdown purpose="Routes"/>
-                <Dropdown purpose="Huts"/>
+                <Dropdown purpose="routes"/>
+                <Dropdown purpose="huts"/>
             </div>
         </nav>
     )

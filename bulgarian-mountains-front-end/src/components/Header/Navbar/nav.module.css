@@ -1,11 +1,12 @@
-nav {
+.Navbar {
     display: flex;
     padding: 1em;
     justify-content: center;
 }
 
-nav div>a {
+.Navbar div>a {
     font-size: 1.2rem;
     margin: 1.2em;
     font-weight: bolder;
 }
+

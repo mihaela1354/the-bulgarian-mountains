@@ -3,19 +3,19 @@ import styles from './register.module.css';
 
 const register = (props) =>{
     return (
-        <form style={styles}>
-            <legend>REgister</legend>
+        <form className="Register" style={styles.Register}>
+            <legend>Register</legend>
             <fieldset>
-                <label>Username:</label>
-                <input type="text" placeholder="Peter" id="login-username"/>
+                <label htmlFor="register-username">Username:</label>
+                <input type="text" placeholder="Peter" id="register-username"/>
             </fieldset>
             <fieldset>
-                <label>Password:</label>
-                <input tyle="password" placeholder="**************" id="login-pass"/>
+                <label htmlFor="register-pass">Password:</label>
+                <input type="password" placeholder="**************" id="register-pass"/>
             </fieldset>
             <fieldset>
-                <label>Repeat Password:</label>
-                <input tyle="password" placeholder="**************" id="login-pass"/>
+                <label htmlFor="register-re-pass">Repeat Password:</label>
+                <input type="password" placeholder="**************" id="register-re-pass"/>
             </fieldset>
             <button>Register</button>
         </form>

@@ -1,5 +1,5 @@
 
-form{
+.Register{
     flex: 1 1 40em;
     justify-self: center;
     margin: 3em 5rem;
@@ -9,11 +9,11 @@ form{
     min-height: max-content;
 }
 
-label{
+.Register label{
     font-size: larger;
 }
 
-input{
+.Register input{
     display: block;
     width: 100%;
     margin-top: 1em;
@@ -23,14 +23,14 @@ input{
     padding: 0.5em;
 }
 
-legend{
+.Register legend{
     font-size: larger;
     font-weight: bolder;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
 
-button{
+.Register button{
     margin-top: 2em;
     width: 100%;
     border-radius: 0;
@@ -41,14 +41,14 @@ button{
     font-size: 1.1rem;
 }
 
-button:hover{
+.Register button:hover{
     cursor: pointer;
     font-weight: bolder;
 }
 
 
 @media (min-width: 950px){
-    form{
+    .Register {
         max-width: 45em;
         margin: 4em auto;
     }

@@ -1,4 +1,4 @@
-aside{
+.Aside{
     width: 15em;
     flex: 0 0 15em;
     display: flex;
@@ -6,7 +6,7 @@ aside{
     border-right: solid 1px grey;
 }
 
-aside>a{
+.Aside>a{
     display: block;
     color: black;
     width: 100%;
@@ -14,9 +14,10 @@ aside>a{
     margin:1em auto;
     text-align: center;
     font-size: 1.1rem;
+    text-transform: capitalize;
 }
 
-aside>a:hover{
+.Aside>a:hover, .Aside>a.active{
     cursor: pointer;
     font-weight: bolder;
     background-color: rgba(128, 128, 128, 0.493);
@@ -24,7 +25,7 @@ aside>a:hover{
 }
 
 @media (max-width: 945px){
-   aside{
+    .Aside{
        display: block;
        width: 100vw;
        border-right: none;

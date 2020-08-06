@@ -1,0 +1,14 @@
+
+.image-holder {
+    display: block;
+    max-height: max-content;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.image-holder img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}

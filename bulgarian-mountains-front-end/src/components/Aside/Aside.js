@@ -5,7 +5,7 @@ import Buttons from './Buttons';
 const aside = (props)=>{
 
     return (
-        <aside style = {styles}>
+        <aside className="Aside" style = {styles}>
           <Buttons logged = {props.isLogged}/>
         </aside>
     )

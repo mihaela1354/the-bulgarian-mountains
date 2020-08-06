@@ -1,6 +1,7 @@
 .Dropdown-dropbtn {
     color: white;
     border: none;
+    text-transform: capitalize;
 }
 
 .Dropdown{
