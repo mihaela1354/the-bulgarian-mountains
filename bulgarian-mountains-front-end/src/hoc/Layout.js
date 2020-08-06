@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Login from '../containers/Auth/Login/Login';
 import Register from '../containers/Auth/Register/Register';
 import GuestHome from '../containers/GuestHome/GuestHome';
+import Huts from '../containers/Huts/Huts';
 
 // import styles from '../containers/App.module.css';
 // import Header from '../components/Header/Header';
@@ -19,6 +20,7 @@ const layout = (props) => {
             <Route path="/"exact component={GuestHome} />
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
+            <Route path='/huts' component={Huts}/>
         </Aux>
     )
 }
